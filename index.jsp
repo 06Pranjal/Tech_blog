@@ -16,6 +16,16 @@
 <%@include file="header.jsp" %>
 
 
+<!-- Banner -->
+<header class="blog-header text-center">
+    <div class="container">
+        <h1 class="display-5 fw-bold">Welcome to Blogs World</h1>
+        <p>This is a corner of the internet where thoughts are free to wander, creativity runs wild, and every post tells a little story. Whether it's reflection, inspiration, or raw honesty — it lives here.</p>
+        <a href="Register.jsp" class="btn btn-outline-light"><span class="	fa fa-external-link"></span> Start! Its Free</a>
+        <a href="login_page.jsp" class="btn btn-outline-light"><span class="	fa fa-edit"></span> Login</a>
+    </div>
+</header>
+
 
 <!-- Blog Posts Section -->
 <div class="container my-4">
@@ -23,7 +33,7 @@
         <!-- Blog Post Card 1 -->
         <div class="col-md-6 col-lg-4">
             <div class="card h-100">
-                <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Blog Image">
+                <img src="images/post 1.webp" class="card-img-top" alt="Blog Image">
                 <div class="card-body">
                     <h5 class="card-title">Post Title 1</h5>
                     <p class="card-text">This is a short summary of the first blog post. It gives a preview of the content.</p>
@@ -35,7 +45,7 @@
         <!-- Blog Post Card 2 -->
         <div class="col-md-6 col-lg-4">
             <div class="card h-100">
-                <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Blog Image">
+                <img src="images/post 1.webp" class="card-img-top" alt="Blog Image">
                 <div class="card-body">
                     <h5 class="card-title">Post Title 2</h5>
                     <p class="card-text">Here is another blog post summary. This one is about technology trends in 2025.</p>
@@ -47,7 +57,7 @@
         <!-- Blog Post Card 3 -->
         <div class="col-md-6 col-lg-4">
             <div class="card h-100">
-                <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Blog Image">
+                <img src="images/post 1.webp" class="card-img-top" alt="Blog Image">
                 <div class="card-body">
                     <h5 class="card-title">Post Title 3</h5>
                     <p class="card-text">This post talks about productivity tips for students and professionals alike.</p>
