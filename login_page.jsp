@@ -82,14 +82,14 @@
     <div class="main-container">
         <div class="card">
             <h3 class="text-center mb-4"><i class="fas fa-user-circle"></i> Login to Blog World</h3>
-            <form action="login" method="post">
+            <form action="LoginServlet" method="post">
                 <div class="mb-3">
                     <label for="email" class="form-label">Email address</label>
-                    <input type="email" name="email" class="form-control" id="email" placeholder="Enter email">
+                    <input type="email" name="email" required class="form-control" id="email" placeholder="Enter email">
                 </div>
                 <div class="mb-3">
                     <label for="password" class="form-label">Password</label>
-                    <input type="password" name="password" class="form-control" id="password" placeholder="Password">
+                    <input type="password" name="password" required class="form-control" id="password" placeholder="Password">
                 </div>
                 <div class="d-grid">
                     <button type="submit" class="btn btn-primary">Login</button>
